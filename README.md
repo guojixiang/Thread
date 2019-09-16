@@ -1,2 +1,2 @@
 # Thread
-study mulit-thread
+study mulit-basic.thread

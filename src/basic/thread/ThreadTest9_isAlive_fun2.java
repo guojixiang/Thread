@@ -2,7 +2,7 @@ package basic.thread;
 
 /**
  * 构造函数传入线程对象：this和Thread的差异之处。
- * @author Administrator
+ * @author guojixiang
  *
  */
 public class ThreadTest9_isAlive_fun2 {

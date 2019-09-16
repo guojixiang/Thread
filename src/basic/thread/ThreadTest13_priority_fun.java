@@ -20,9 +20,9 @@ package basic.thread;
 public class ThreadTest13_priority_fun {
 	
 	public static void main(String[] args) {
-		System.out.println("main thread begin priority="+Thread.currentThread().getPriority());
+		System.out.println("main basic.thread begin priority="+Thread.currentThread().getPriority());
 //		 Thread.currentThread().setPriority(6);
-		System.out.println("main thread end priority="+Thread.currentThread().getPriority());
+		System.out.println("main basic.thread end priority="+Thread.currentThread().getPriority());
 		// ¼Ì³ÐÌØÐÔ
 		PriorityThread1 priorityThread1 = new PriorityThread1();
 		priorityThread1.start();

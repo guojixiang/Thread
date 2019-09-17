@@ -5,8 +5,8 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 
 /**
- * 运行字节流进行线程间数据通信
- * 字节流也可替换成对应的字符流：PipedWriter,PipedReader
+ * 杩愯瀛楄妭娴佽繘琛岀嚎绋嬮棿鏁版嵁閫氫俊
+ * 瀛楄妭娴佷篃鍙浛鎹㈡垚瀵瑰簲鐨勫瓧绗︽祦锛歅ipedWriter,PipedReader
  */
 public class Example_PipedStream {
 
@@ -18,7 +18,7 @@ public class Example_PipedStream {
             PipedInputStream pipedInputStream = new PipedInputStream();
             PipedOutputStream pipedOutputStream = new PipedOutputStream();
 
-            // 使两个stream之间产生通信链接
+            // 浣夸袱涓猻tream之涔嬮棿浜х敓閫氫俊閾炬帴
             pipedOutputStream.connect(pipedInputStream);
 
             ThreadWrite threadWrite = new ThreadWrite(writeData, pipedOutputStream);
